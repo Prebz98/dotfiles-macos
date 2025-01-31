@@ -55,3 +55,5 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 # Intellij
 export PATH="/Applications/IntelliJ IDEA.app/Contents/bin:$PATH"
 
+# Automatic update environment
+alias update-env='cd ~/.dotfiles-macos && export DOTFILES=~/.dotfiles-macos && python3 install.py'
