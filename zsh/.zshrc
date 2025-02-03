@@ -62,3 +62,5 @@ export PATH="/Applications/IntelliJ IDEA.app/Contents/bin:$PATH"
 
 # Automatic update environment
 alias update-env='cd ~/.dotfiles-macos && export DOTFILES=~/.dotfiles-macos && python3 install.py'
+
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
