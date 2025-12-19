@@ -20,14 +20,6 @@ fi
 
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-
-if [[ $TERMINAL_EMULATOR == "JetBrains-JediTerm" ]]; then
- [[ ! -f $DOTFILES/zsh/.p10k-intellij.zsh ]] || source $DOTFILES/zsh/.p10k-intellij.zsh
-else
- [[ ! -f $DOTFILES/zsh/.p10k-ghostty.zsh ]] || source $DOTFILES/zsh/.p10k-ghostty.zsh
-fi
-
 # The next block (interactive and source) is to make zsh-autocomplete to work
 setopt interactive_comments # weird fix for autocomplete
 source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh

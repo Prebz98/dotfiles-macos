@@ -23,7 +23,6 @@ brew 'jenv'
 
 
 # Apps
-cask 'ghostty'
 cask 'iterm2'
 cask 'arc'
 cask 'slack'
@@ -34,3 +33,4 @@ cask 'signal'
 cask 'temurin@17'
 cask 'temurin@21'
 cask 'temurin'
+cask 'warp'
