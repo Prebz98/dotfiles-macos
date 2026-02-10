@@ -31,11 +31,6 @@
       "sudo": false
     },
     {
-      "label": "Install Java versions and manage with Jenv",
-      "command": "/bin/bash $DOTFILES/.javaconfig",
-      "sudo": false
-    },
-    {
       "label": "Install Oh-My-Zsh",
       "command": "/bin/bash $DOTFILES/.oh-my-zsh",
       "sudo": false

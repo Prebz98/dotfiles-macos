@@ -29,6 +29,7 @@ cask '1password'
 cask 'signal'
 cask 'warp'
 cask 'rectangle'
+cask 'zen'
 
 # Dotnet
 cask 'dotnet-sdk'
