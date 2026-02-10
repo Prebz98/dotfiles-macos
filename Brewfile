@@ -19,18 +19,19 @@ brew 'zsh-autocomplete'
 brew 'zsh-syntax-highlighting'
 brew 'powerlevel10k'
 brew 'antigen'
-brew 'jenv'
 
 
 # Apps
 cask 'iterm2'
-cask 'arc'
 cask 'slack'
 cask 'notion'
 cask '1password'
 cask 'signal'
-
-cask 'temurin@17'
-cask 'temurin@21'
-cask 'temurin'
 cask 'warp'
+cask 'rectangle'
+
+# Dotnet
+cask 'dotnet-sdk'
+cask 'rider'
+brew 'azure-cli'
+brew 'docker'

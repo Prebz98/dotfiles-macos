@@ -1,6 +1,7 @@
 [user]
         name = Preben Moen Zahl
         email = preben.zahl@gmail.com
+	    signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMH3kOaQwRf8m1uHhUtq64jstDLG7FDeanrSS8Zm0VqA
 [push]
 	default = simple
 	followTags = true
@@ -8,3 +9,11 @@
 
 
 
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = input
