@@ -48,5 +48,10 @@ alias db='dotnet build'
 alias dt='dotnet test'
 alias dw='dotnet watch'
 
+# Open current directory in Rider
+alias rd='open -a "Rider.app" .'
+# Deep clean for .NET projects
+alias dotnet-clean='find . -type d \( -name "bin" -o -name "obj" \) -exec rm -rf {} + && dotnet restore'
+
 # Global bins
 export PATH="$HOME/bin:/usr/local/bin:$PATH"

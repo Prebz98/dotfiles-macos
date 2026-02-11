@@ -46,6 +46,11 @@
       "label": "git config",
       "src": "$DOTFILES/git/.gitconfig",
       "dest": "$HOME/.gitconfig"
+    },
+    {
+      "label": "vscode-launcher",
+      "src": "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code",
+      "dest": "/usr/local/bin/code"
     }
   ]
 }
